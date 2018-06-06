@@ -1,7 +1,5 @@
 var Nom = "Doe";
-var Prénom = "John";
+var Prenom = "John";
 var Ville = "New-York";
 
-    alert("Nom : Doe" +
-          "\nPrénom : John" +
-          "\nVille : New-York");
+    alert('Nom : ' + Nom + '\n' +  'Prénom : ' + Prenom  + '\n' +  'Ville : ' +  Ville);
