@@ -1,1 +1,2 @@
-alert("Bonjour, début du parcours Javascript");
+var prenom = 'Sourech';
+alert(prenom);
