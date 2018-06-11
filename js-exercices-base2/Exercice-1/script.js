@@ -1,6 +1,17 @@
-vvar age = prompt('Quel âge avez-vous ? (en années)');
+function surfaceRectangle()
+{
+  var largeur = prompt("Saisissez une largeur:");
+  var longueur = prompt("Saisissez une longueur:");
+  var surface = largeur * longueur;
 
-// on compare l'age : s'il est superieur ou egal à 18 ans, alors le visiteur est majeur
-var majeur = (age >= 18);
+  alert("la surface du rectangle est de: "+surface);
+}
 
-alert('Vous êtes majeurs : ' + majeur); // on verifie que ça marche ^^
+function periRectangle()
+{
+  var largeur = prompt("Saisissez une largeur:");
+  var longueur = prompt("Saisissez une longueur:");
+  var perimetre = (largeur * 2) + (longueur * 2);
+
+  alert("le périmetre du rectangle est de: "+perimetre);
+}

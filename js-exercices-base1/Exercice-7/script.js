@@ -9,5 +9,3 @@ function total(){
 
   return  resultat;
 };
-
-alert(total());
