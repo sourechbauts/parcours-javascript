@@ -1,2 +1,2 @@
-var prenom = 'Sourech';
-alert(prenom);
+var message = "Bonjour visiteur";
+alert(message);
